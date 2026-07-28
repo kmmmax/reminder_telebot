@@ -6,7 +6,7 @@ import asyncio
 import sqlite3
 import datetime
 
-TOKEN = "8970798889:AAGepkyNzCVWGYsg3OHt_xGuGCKGxQyry7c"
+TOKEN = 
 PROXY = "socks5://127.0.0.1:10808"
 
 session = AiohttpSession(proxy=PROXY)
