@@ -8,6 +8,8 @@ import sqlite3
 import datetime
 import os
 
+load_dotenv()
+
 TOKEN = os.getenv("BOT_TOKEN")
 PROXY = "socks5://127.0.0.1:10808"
 
