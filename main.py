@@ -8,7 +8,7 @@ import sqlite3
 import datetime
 import os
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = "8970798889:AAGepkyNzCVWGYsg3OHt_xGuGCKGxQyry7c"
 PROXY = "socks5://127.0.0.1:10808"
 
 session = AiohttpSession(proxy=PROXY)
