@@ -2,11 +2,13 @@ from aiogram import Bot, Dispatcher
 from aiogram.types import Message
 from aiogram.filters import Command
 from aiogram.client.session.aiohttp import AiohttpSession
+from dotenv import load_dotenv
 import asyncio
 import sqlite3
 import datetime
+import os
 
-TOKEN = "8970798889:AAGepkyNzCVWGYsg3OHt_xGuGCKGxQyry7c"
+TOKEN = os.getenv("BOT_TOKEN")
 PROXY = "socks5://127.0.0.1:10808"
 
 session = AiohttpSession(proxy=PROXY)
